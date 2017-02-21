@@ -1,6 +1,13 @@
 # coordinate-transform
 Coordinate transformation library used by Apollo.
 
-   mvn package
-   
-   mvn test
+
+To build:
+
+    gradle clean jar   # build/lib/projection*jar
+     
+
+To test:
+
+    gradle clean test # build/reports/tests/index.html
+
