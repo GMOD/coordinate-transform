@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'org.bbop.apollo'
+version = '1.0-SNAPSHOT'
+
+description = """"""
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+
+
+repositories {
+        
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+dependencies {
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version:'2.3.7'
+    compile group: 'org.spockframework', name: 'spock-core', version:'1.0-groovy-2.3'
+}
