@@ -12,11 +12,14 @@ targetCompatibility = 1.8
 
 
 repositories {
-     jcenter()
-     maven { url "http://repo.maven.apache.org/maven2" }
+    jcenter()
+    maven { url "http://repo.maven.apache.org/maven2" }
+    maven { url 'https://jitpack.io' }
 }
 dependencies {
-    compile group: 'org.codehaus.groovy', name: 'groovy-all', version:'2.3.7'
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.3.7'
+    compile 'com.github.gmod:coordinate-transform:0.8'
+
 
     testCompile(
             'junit:junit:4.12',
